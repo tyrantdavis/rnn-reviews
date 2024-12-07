@@ -28,7 +28,7 @@ Several questions will be asked:
 - What is the standard deviation for the word count of reviews?
 - What happens to the layer sizes as the model approaches the final outputlayer?
 - How accurate is the model's performance?
-- What is the moel's loss?
+- What is the model's loss?
 - What insights can you share regarding the inaccurate classifications?
 - What strategies could be employ to retrain this RNN model and enhance its performance?
 
@@ -51,7 +51,7 @@ A dataset that can be used to train the machine-learning model has been found. T
     - The sizes of the input and output can differ from one layer to another. As the final output layer is approached, which is usually a dense network, the dimensions of each preceding layer generally decrease.
 - How accurate is the model's performance?
     - 86% 
-- What is the moel's loss?
+- What is the model's loss?
     - 0.45 
 - What insights can be shared regarding the inaccurate classifications?
     - It's clear that the tone is negative, but there might be clues that led the model to interpret it as positive. 
