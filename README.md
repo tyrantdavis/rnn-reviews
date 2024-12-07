@@ -12,6 +12,11 @@ To enhance efficiency,  the aim is to implement sentiment analysis on these revi
 
 - [IMDb Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/) 
 
+| LABEL | DESCRIPTION |
+|-------|-------------|
+| 0     | Negative Sentiment|
+| 1     | Positive Sentiment|
+
 
 ## Project Goals
 The objective is to create a sentiment evaluation system that automatically classifies reviews.
