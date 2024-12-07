@@ -43,4 +43,19 @@ The convolutional neural network previously employed are primarily feedforward n
 A dataset that can be used to train the machine-learning model has been found. This is dataset of a dataset of 25,000 IMDb records. 
 
 ## Conclusions
-TBD... 
+- How long do reviews typically average in word count?
+    - Typically 239 words. 
+- What is the standard deviation for the word count of reviews?
+    - 176 
+- What happens to the layer sizes as the model approaches the final outputlayer?
+    - The sizes of the input and output can differ from one layer to another. As the final output layer is approached, which is usually a dense network, the dimensions of each preceding layer generally decrease.
+- How accurate is the model's performance?
+    - 86% 
+- What is the moel's loss?
+    - 0.45 
+- What insights can be shared regarding the inaccurate classifications?
+    - It's clear that the tone is negative, but there might be clues that led the model to interpret it as positive. 
+- What strategies could be employ to retrain this RNN model and enhance its performance?
+    - Increasing the vocabulary beyond 10,000 words or eliminating that limit entirely could supply the model with more valuable information.
+
+        Additionally, adjusting the LSTM and dense layers to incorporate various output sizes, along with adding extra layers, might further boost the model's performance. Ultimately, the key is to thoroughly experiment with these hyperparameter settings to find the best configuration. 
