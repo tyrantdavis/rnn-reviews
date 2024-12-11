@@ -1,4 +1,7 @@
-# Fashion - Neural Network
+# Reviews - Recurrent Neural Network
+
+
+## [Demo](https://nbviewer.org/github/tyrantdavis/rnn-reviews/blob/main/reviews.ipynb)
 
 ## Intro 
 You provide consulting services for an e-commerce business where customers can submit written reviews for any items they buy. By analyzing these reviews, the company can gain valuable insights into which products are popular and well-received, as well as those that are not performing as well. 
